@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://allfont.ru/allfont.css?fonts=roslyn-gothic-rus"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>elbrusTranslit</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">Elbrus.Translit</div>
+      <div id="nav-btn"></div>
+      <div id="nav-bar" class="hidden">
+        <div>
+          <a href="https://elbrusboot.camp/" target="_blank">Проекты</a>
+        </div>
+        <div><a href="https://elbrusboot.camp/" target="_blank">Разное</a></div>
+        <div><a href="https://elbrusboot.camp/" target="_blank">Всякое</a></div>
+        <div>
+          <a href="https://elbrusboot.camp/" target="_blank">Контакты</a>
+        </div>
+        <div><a href="https://elbrusboot.camp/" target="_blank">Инфо</a></div>
+      </div>
+    </header>
+    <main>
+      <div class="flex-container">
+        <div class="input-wrapper">
+          <input type="text" placeholder="введите текст" />
+          <button id="submit" type="submit">Добавить</button>
+          <button id="clear">Очистить</button>
+        </div>
+      </div>
+      <div class="vocab-wrapper">
+        <ul class="left vocab-row"></ul>
+        <div class="line"></div>
+        <ul class="right vocab-row"></ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
