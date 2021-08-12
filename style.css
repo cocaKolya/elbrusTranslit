@@ -182,11 +182,12 @@ header {
     background-color: rgba(69, 32, 171);
   }
   .input-wrapper {
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
   .vocab-wrapper {
     flex-direction: column;
     justify-self: unset;
+    margin: 0px 30px;
   }
   .vocab-row {
     min-height: 100px;
@@ -196,5 +197,8 @@ header {
   .line {
     margin: 0px 10px;
     border-bottom: 1px solid rgb(69, 32, 171);
+  }
+  .input-wrapper button {
+    margin-left: 0px;
   }
 }
